@@ -6,6 +6,7 @@ class Computer:
     # to use class variable you have to use class methods, you have to declare its a class method by using the @classmethod
     # the @ is also known as decorators
     @classmethod
+    # you can use classmethods as alternative constructors check this to refresh your memory: https://www.youtube.com/watch?v=rq8cL2XMM5M&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=3
     def getBrandName(cls):
         return cls.brand
 
