@@ -12,7 +12,8 @@ class Computer:
 
     # if you dont want to relate the method to a class or a object keep it empty this will mean its a static method
     # this will be helphul if you want to perform any operations
-    # have to use #staticmethod so that python would know that this is a static method
+    # have to use @staticmethod so that python would know that this is a static method
+    # also if you are not using any class or object variables such as cls or self then the methd should be considered as a static method
     @staticmethod
     def info():
         return 10 + 5
