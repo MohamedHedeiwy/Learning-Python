@@ -1,0 +1,6 @@
+pip list : this prints all the installed packages
+pip list -o : this prints out all the outdated packages 
+pip install -U (packages name): to upgrade a packages
+For update all packages : pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+
+Check this for other cool things to do: https://www.youtube.com/watch?v=U2ZN104hIcc&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=13
