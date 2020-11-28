@@ -1,6 +1,16 @@
 print(10 / 3)
 print(10 // 3)  # Using // prints the number in an integer form instead of a float
 
+multiline = """ 
+This
+is
+a
+multi
+line
+string
+"""
+print(multiline)
+
 # The Back slash tells python to ignore what comes after it
 print("Mohamed's \"Laptop\"")
 print('C:\Desktop\number')
