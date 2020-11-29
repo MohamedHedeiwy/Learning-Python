@@ -11,6 +11,8 @@ string
 """
 print(multiline)
 
+print('{0} {2} {0}'.format(0,1,2)) # the number inside the {} represents the index of what is inside the format function
+
 # The Back slash tells python to ignore what comes after it
 print("Mohamed's \"Laptop\"")
 print('C:\Desktop\number')

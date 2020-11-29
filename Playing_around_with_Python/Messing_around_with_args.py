@@ -24,4 +24,4 @@ def fact(a):
     return x
 
 
-
+sub(12,31,312,2,341)

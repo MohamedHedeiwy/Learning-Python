@@ -54,4 +54,4 @@ def fun2(n):
 """
 print('func2 using timeit: ',timeit.timeit(stmt1,setup1,number=1000000))
 
- 
+
